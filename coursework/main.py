@@ -1,5 +1,7 @@
 import nltk
 
+# Next goal: understand input
+
 def process(user_input):
     tokens = nltk.word_tokenize(user_input)
     return tokens
